@@ -29,7 +29,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "3517270b-bc89-4ea1-a4f5-f365c4eadb39",
+    "uuid": "0a4b44a4-7911-461a-a209-0d34d4d6b1bf",
     "template": "https://github.com/strapi/strapi-template-corporate",
     "starter": "https://github.com/strapi/strapi-starter-next-corporate"
   },
