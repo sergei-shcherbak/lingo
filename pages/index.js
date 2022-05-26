@@ -1,5 +1,4 @@
 import Container from '../components/container'
-import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
 import Intro from '../components/intro'
 import Layout from '../components/layout'
@@ -8,6 +7,10 @@ import Head from 'next/head'
 import Script from 'next/script'
 import { CMS_NAME } from '../lib/constants'
 import Header from "../components/header";
+import Contact from "../components/contact";
+import SectionFirst from "../components/section-first";
+import SectionSecond from "../components/section-second";
+import SectionMap from "../components/section-map";
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0]
@@ -21,6 +24,10 @@ export default function Index({ allPosts }) {
         <Container>
           <Header />
             <HeroPost />
+            <SectionFirst />
+            <SectionSecond />
+            <SectionMap />
+            <Contact />
         </Container>
       </Layout>
     </>

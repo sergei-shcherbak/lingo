@@ -7,5 +7,5 @@ html {
 @tailwind utilities;
 
 .gradient {
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    background: linear-gradient(to left bottom, #272a33, #004d68, #007480, #009a64, #5eb705);
 }
