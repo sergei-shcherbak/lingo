@@ -1,7 +1,22 @@
 {
-  "title": "Hello world",
-  "item-1": "Start",
-  "item-2": "Main",
-  "item-3": "Contact",
-  "switch-language": "Language"
+  "quiz": "Loslegen",
+  "benefits": "Vorteile",
+  "services": "Unsere Dienstleistungen",
+  "map": "Finde uns",
+  "contact": "Kontaktiere uns",
+
+  "hero-title": "Are you thinking about learning languages?",
+  "hero-message": "Sub-hero message, not too long and not too short. Make it just right!",
+  "hero-btn": "Take a quiz",
+
+  "benefits-title": "Benefits",
+  "benefits-first-title": "The Lingo! Principle",
+  "benefits-first-message": "At Lingo, we believe in the well-known motto “practice makes perfect”, or as the Roman philosopher Cicero put it: “One only learns to speak by speaking”.\n Our corporate philosophy is based on designing our language courses in small groups in order to always be able to respond to the needs of the individual and, above all, to promote speaking. We offer a range of different courses with different language levels, which are adapted to the respective participants and/or their professional field.",
+  "benefits-second-title": "Lingo! Language Learning Center \n In the heart of Osnabrueck",
+  "benefits-second-message": "By Lingo! Will you feel welcome. Our classroom is equipped with drinks, comfortable seating, and a Smart TV for interactive learning sessions. We have created a cozy atmosphere in a beautiful environment for you to enable you to achieve the best possible learning success. Centrally located",
+
+  "map-title": "Find us",
+  "map-description": "Anfahrt mit dem Auto über den Johannistorwall, abbiegen auf Kommenderiestraße, rechts auf Spindelstraße, erstes Gebäude auf der rechten Seite\n\n Anfahrt mit dem Bus Haltestelle Rosenplatz, zu Fuß Nach Westen, rechts abbiegen auf Kommenderiestraße, dann links auf Spindelstraße, erstes Gebäude auf der rechten Seite.\n                            "
+
+
 }

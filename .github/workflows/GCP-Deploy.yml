@@ -29,6 +29,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Create env file
+        run: |
+          touch .env.local
+          echo GMAIL_USER=${{ secrets.GMAIL_USER }} >> .env.local
+          echo GMAIL_PASSWORD=${{ secrets.GMAIL_PASSWORD }} >> .env.local
+          echo GMAIL_EMAIL=${{ secrets.GMAIL_EMAIL }} >> .env.local
+          echo NEXT_PUBLIC_GCP_RECAPTCHA_PUBLIC_KEY=${{ secrets.NEXT_PUBLIC_GCP_RECAPTCHA_PUBLIC_KEY }} >> .env.local
+
       - name: Build Docker image
         run: docker build . -t $IMAGE_NAME
 

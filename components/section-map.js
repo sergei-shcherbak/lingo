@@ -1,15 +1,27 @@
 import GoogleMap from "./google-map";
+import useTranslation from "next-translate/useTranslation";
 
 export default function SectionMap() {
+    const {t, lang} = useTranslation('common')
+    const mapTitle = t('map-title')
+    const mapDescription = t('map-description')
     return (
         <>
-            <section className="bg-gray-100 py-8">
+            <section id="map" className="bg-gray-100 py-8">
                 <div className="container mx-auto px-2 pt-4 pb-12 text-gray-800">
                     <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-                        Find us
+                        {mapTitle}
                     </h1>
                     <div className="w-full mb-4">
                         <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"/>
+                    </div>
+                    <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
+                        {/*<p className="w-full my-2 text-xl leading-tight text-gray-800">{mapDescription}</p>*/}
+                        <h1 className="w-full my-2 text-2xl font-bold leading-tight text-center text-gray-800">
+                            Lingo!-Language for your business:
+                            Spindelstraße 14
+                            49080 Osnabrück
+                        </h1>
                     </div>
                     <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
                         <GoogleMap/>

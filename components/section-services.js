@@ -1,10 +1,10 @@
-export default function SectionSecond() {
+export default function SectionServices() {
     return (
         <>
-            <section className="bg-white border-b py-8">
+            <section id="services" className="bg-white border-b py-8">
                 <div className="container mx-auto flex flex-wrap pt-4 pb-12">
                     <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-                        Title
+                        Services
                     </h1>
                     <div className="w-full mb-4">
                         <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"/>
@@ -15,9 +15,6 @@ export default function SectionSecond() {
                                 href="#"
                                 className="flex flex-wrap no-underline hover:no-underline"
                             >
-                                <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                                    xGETTING STARTED
-                                </p>
                                 <div className="w-full font-bold text-xl text-gray-800 px-6">
                                     Lorem ipsum dolor sit amet.
                                 </div>
@@ -30,7 +27,8 @@ export default function SectionSecond() {
                         <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
                             <div className="flex items-center justify-start">
                                 <button
-                                    className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                    className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8
+                                    shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                                     Action
                                 </button>
                             </div>
@@ -42,9 +40,6 @@ export default function SectionSecond() {
                                 href="#"
                                 className="flex flex-wrap no-underline hover:no-underline"
                             >
-                                <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                                    xGETTING STARTED
-                                </p>
                                 <div className="w-full font-bold text-xl text-gray-800 px-6">
                                     Lorem ipsum dolor sit amet.
                                 </div>
@@ -69,9 +64,6 @@ export default function SectionSecond() {
                                 href="#"
                                 className="flex flex-wrap no-underline hover:no-underline"
                             >
-                                <p className="w-full text-gray-600 text-xs md:text-sm px-6">
-                                    xGETTING STARTED
-                                </p>
                                 <div className="w-full font-bold text-xl text-gray-800 px-6">
                                     Lorem ipsum dolor sit amet.
                                 </div>

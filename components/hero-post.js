@@ -1,35 +1,27 @@
-import DateFormatter from '../components/date-formatter'
-import Link from 'next/link'
-import GoogleMap from "./google-map";
 import HeaderLine from '../public/assets/svg/header-line.svg'
-import TravelBooking from '../public/assets/svg/travel-booking.svg'
-import ConnectedWorld from '../public/assets/svg/connected-world.svg'
-import Logo from '../public/assets/svg/logo.svg'
+import useTranslation from "next-translate/useTranslation";
 
-
-const render = (status) => {
-    return <h1>{status}</h1>;
-};
 
 export default function HeroPost() {
+    const {t, lang} = useTranslation('common')
+    const heroTitle = t('hero-title')
+    const heroMessage = t('hero-message')
+    const heroBtn = t('hero-btn')
     return (
         <>
-            <div className="pt-24">
+            <div id="quiz" className="pt-24">
                 <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
                     {/*Left Col*/}
                     <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-                        <p className="uppercase tracking-loose w-full">
-                            What business are you?
-                        </p>
                         <h1 className="my-4 text-5xl font-bold leading-tight">
-                            Main Hero Message to sell yourself!
+                            {heroTitle}
                         </h1>
                         <p className="leading-normal text-2xl mb-8">
-                            Sub-hero message, not too long and not too short. Make it just right!
+                            {heroMessage}
                         </p>
                         <button
                             className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                            Subscribe
+                            {heroBtn}
                         </button>
                     </div>
                     {/*Right Col*/}
